@@ -53,7 +53,7 @@
                 <h2>Keitä olemme?</h2>
             </section>
             <section>
-                <h3>Olemme pieni suomalainen Discord-yhteisöpalvelin. Densoka aloitti 19.5.2022 ja siitä on tullut aktiivinen Discord-palvelin. Tarjoamme ystävällisen yhteisön kuulumiseen ja ajanviettoon.</h3>
+                <h3>Olemme pieni suomalainen Discord yhteisöpalvelin. Densoka aloitti 19.5.2022 ja siitä on tullut aktiivinen Discord-palvelin. Tarjoamme mahdollisuuden kuulua ystävälliseen yhteisöön ja viettää aikaa yhteisössä.</h3>
             </section>
         </section>
         <section class="text">
@@ -61,7 +61,7 @@
                 <h2>Kuinka antaa palutetta?</h2>
             </section>
             <section>
-                <h3>Voit antaa palautetta Google Formsin kautta <a href="https://docs.google.com/forms/d/e/1FAIpQLScvc1DnoJh1-J2KrVS7mFF1pEz2aACaGQh7fKBaqWJdtST-Xw/viewform?usp=sf_link">tämän linkin</a> kautta. Arvostamme kaikkea palautettasi ja yritämme tehdä yhteisöstä entistä suuremman sen avulla.</h3>
+                <h3>Voit antaa palautetta Google Formsin kautta <a href="https://docs.google.com/forms/d/e/1FAIpQLScvc1DnoJh1-J2KrVS7mFF1pEz2aACaGQh7fKBaqWJdtST-Xw/viewform?usp=sf_link">tämän linkin</a> kautta. Arvostamme kaikkea palautettasi ja yritämme tehdä yhteisöstä entistäkin paremman sen avulla.</h3>
             </section>
         </section>
     </section>
@@ -74,10 +74,18 @@
             </section>
             <section>
                 <section>
+                    <p>Liitty Discordiin</p>
+                </section>
+                <section>
+                    <a href="https://discord.gg/zsCkxjX9td">Discord</a>
+                </section>
+            </section>
+            <section>
+                <section>
                     <p>Tarvitsetko apua?</p>
                 </section>
                 <section>
-                    <a href="https://discord.gg/zsCkxjX9td" target="_blank">Discord</a>
+                    <p>Densoka.help@gmail.com</p>
                 </section>
             </section>
             <section>
@@ -97,7 +105,7 @@
                 <p>&copy; logot & ulkoiset linkit: Densoka, 2023 - 2024, kaikki oikeudet pidätetään</p>
             </section>
             <section>
-                <p>Tämä sivusto sisältää kuvia, jotka eivät ole tekijänoikeuslisenssimme alaisia. Tarkista alkuperäinen tekijä kuvan otsikosta. Jos löydät sisällöstäsi tällä sivulla vääriä tekijänoikeustietoja, ota meihin yhteyttä, jotta voimme korjata tai poistaa sisällön.</p>
+                <p>Tämä sivusto sisältää kuvia, jotka eivät ole tekijänoikeuslisenssimme alaisia. Tarkistathan alkuperäisen tekijän kuvatekstistä. Jos löydät sisältöäsi tältä sivulta väärillä tekijänoikeustiedoilla, ota meihin yhteyttä, jotta voimme korjata tai poistaa sisällön.</p>
             </section>
         </section>
     </section>
@@ -224,11 +232,12 @@
         color: #dacccc;
         text-align: start;
     }
-    .copyright section {
+    .copyright section:not(.copyright section section) {
         max-width: min(800px, 50%);
         padding: 20px;
         margin: auto;
         display: inline-block;
+        flex-wrap: wrap;
     }
 </style>
 <script>
